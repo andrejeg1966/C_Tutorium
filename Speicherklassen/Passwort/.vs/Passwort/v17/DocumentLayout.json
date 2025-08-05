@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Passwort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D5E31FE-E4D6-48D1-A80D-EBE29BF6C000}|Passwort.vcxproj|C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Passwort\\Passwort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D5E31FE-E4D6-48D1-A80D-EBE29BF6C000}|Passwort.vcxproj|solutionrelative:Passwort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D5E31FE-E4D6-48D1-A80D-EBE29BF6C000}|Passwort.vcxproj|C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Passwort\\Perm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D5E31FE-E4D6-48D1-A80D-EBE29BF6C000}|Passwort.vcxproj|solutionrelative:Perm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Perm.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Passwort\\Perm.cpp",
+              "RelativeDocumentMoniker": "Perm.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Passwort\\Perm.cpp",
+              "RelativeToolTip": "Perm.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-09T13:58:05.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Passwort.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Passwort\\Passwort.cpp",
+              "RelativeDocumentMoniker": "Passwort.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Passwort\\Passwort.cpp",
+              "RelativeToolTip": "Passwort.cpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-09T13:57:19.771Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

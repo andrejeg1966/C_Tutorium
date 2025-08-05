@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Extern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88C364B5-3024-4860-BFB3-25FC4492C3D9}|Extern.vcxproj|C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Extern\\Extern1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C364B5-3024-4860-BFB3-25FC4492C3D9}|Extern.vcxproj|solutionrelative:Extern1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C364B5-3024-4860-BFB3-25FC4492C3D9}|Extern.vcxproj|C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Extern\\Extern2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88C364B5-3024-4860-BFB3-25FC4492C3D9}|Extern.vcxproj|solutionrelative:Extern2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Extern2.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Extern\\Extern2.cpp",
+              "RelativeDocumentMoniker": "Extern2.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Extern\\Extern2.cpp",
+              "RelativeToolTip": "Extern2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-09T13:52:49.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Extern1.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Extern\\Extern1.cpp",
+              "RelativeDocumentMoniker": "Extern1.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\\Speicherklassen\\Extern\\Extern1.cpp",
+              "RelativeToolTip": "Extern1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-09T13:51:34.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

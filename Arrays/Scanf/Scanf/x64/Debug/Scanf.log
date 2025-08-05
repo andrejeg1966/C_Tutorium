@@ -1,0 +1,18 @@
+﻿  Scanf.cpp
+C:\Dev\VisualStudio\C\Arrays\Scanf\Scanf.cpp(17,17): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Dev\VisualStudio\C\Arrays\Scanf\Scanf.cpp(17,17):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Dev\VisualStudio\C\Arrays\Scanf\Scanf.cpp(17,17):
+      the missing variadic argument 2 is required by format string '%500[^bB]'
+      C:\Dev\VisualStudio\C\Arrays\Scanf\Scanf.cpp(17,17):
+      this argument is used as a buffer size
+  
+C:\Dev\VisualStudio\C\Arrays\Scanf\Scanf.cpp(28,24): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Dev\VisualStudio\C\Arrays\Scanf\Scanf.cpp(28,24):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Dev\VisualStudio\C\Arrays\Scanf\Scanf.cpp(28,24):
+      the missing variadic argument 2 is required by format string '%1[JNjn]'
+      C:\Dev\VisualStudio\C\Arrays\Scanf\Scanf.cpp(28,24):
+      this argument is used as a buffer size
+  
+  Scanf.vcxproj -> C:\Dev\VisualStudio\C\Arrays\Scanf\x64\Debug\Scanf.exe

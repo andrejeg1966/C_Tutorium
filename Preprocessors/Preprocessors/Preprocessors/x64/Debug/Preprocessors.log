@@ -1,0 +1,4 @@
+﻿  Preprocessors.cpp
+C:\Dev\VisualStudio\C\Preprocessors\Preprocessors\Preprocessors.cpp(7,9): warning C4068: unknown pragma 'startup'
+C:\Dev\VisualStudio\C\Preprocessors\Preprocessors\Preprocessors.cpp(8,9): warning C4068: unknown pragma 'exit'
+  Preprocessors.vcxproj -> C:\Dev\VisualStudio\C\Preprocessors\Preprocessors\x64\Debug\Preprocessors.exe

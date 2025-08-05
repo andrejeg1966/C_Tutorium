@@ -1,0 +1,6 @@
+﻿  SelfStructurePointer.cpp
+C:\Dev\VisualStudio\C\Struct\SelfStructurePointer\SelfStructurePointer.cpp(32,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructurePointer\SelfStructurePointer.cpp(32,10): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructurePointer\SelfStructurePointer.cpp(32,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructurePointer\SelfStructurePointer.cpp(32,10): warning C4313: 'printf': '%d' in format string conflicts with argument 3 of type 'mystruct *'
+  SelfStructurePointer.vcxproj -> C:\Dev\VisualStudio\C\Struct\SelfStructurePointer\x64\Debug\SelfStructurePointer.exe

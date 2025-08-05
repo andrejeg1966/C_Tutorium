@@ -1,0 +1,10 @@
+﻿  PointerToPointer.cpp
+C:\Dev\VisualStudio\C\Pointer\PointerToPointer\PointerToPointer.cpp(19,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'int *'
+C:\Dev\VisualStudio\C\Pointer\PointerToPointer\PointerToPointer.cpp(19,9): warning C4313: 'printf': '%d' in format string conflicts with argument 2 of type 'int *'
+C:\Dev\VisualStudio\C\Pointer\PointerToPointer\PointerToPointer.cpp(22,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+C:\Dev\VisualStudio\C\Pointer\PointerToPointer\PointerToPointer.cpp(22,9): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'int *'
+C:\Dev\VisualStudio\C\Pointer\PointerToPointer\PointerToPointer.cpp(22,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'int **'
+C:\Dev\VisualStudio\C\Pointer\PointerToPointer\PointerToPointer.cpp(22,9): warning C4313: 'printf': '%d' in format string conflicts with argument 2 of type 'int **'
+C:\Dev\VisualStudio\C\Pointer\PointerToPointer\PointerToPointer.cpp(22,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'int *'
+C:\Dev\VisualStudio\C\Pointer\PointerToPointer\PointerToPointer.cpp(22,9): warning C4313: 'printf': '%d' in format string conflicts with argument 3 of type 'int *'
+  PointerToPointer.vcxproj -> C:\Dev\VisualStudio\C\Pointer\PointerToPointer\x64\Debug\PointerToPointer.exe

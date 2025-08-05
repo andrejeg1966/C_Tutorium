@@ -1,0 +1,14 @@
+﻿  SelfStructureVariable.cpp
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(20,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(20,9): warning C4313: 'printf': '%u' in format string conflicts with argument 1 of type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(20,9): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 3 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(20,9): warning C4313: 'printf': '%u' in format string conflicts with argument 3 of type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(21,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(21,9): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(21,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(21,9): warning C4313: 'printf': '%d' in format string conflicts with argument 3 of type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(22,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(22,9): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(22,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\SelfStructureVariable.cpp(22,9): warning C4313: 'printf': '%d' in format string conflicts with argument 3 of type 'mystruct *'
+  SelfStructureVariable.vcxproj -> C:\Dev\VisualStudio\C\Struct\SelfStructureVariable\x64\Debug\SelfStructureVariable.exe

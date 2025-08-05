@@ -1,0 +1,6 @@
+﻿  FunctionPointer.cpp
+C:\Dev\VisualStudio\C\Pointer\FunctionPointer\FunctionPointer.cpp(17,11): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Dev\VisualStudio\C\Pointer\FunctionPointer\FunctionPointer.cpp(21,11): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Dev\VisualStudio\C\Pointer\FunctionPointer\FunctionPointer.cpp(25,11): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Dev\VisualStudio\C\Pointer\FunctionPointer\FunctionPointer.cpp(29,11): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  FunctionPointer.vcxproj -> C:\Dev\VisualStudio\C\Pointer\FunctionPointer\x64\Debug\FunctionPointer.exe

@@ -1,0 +1,6 @@
+﻿  LinkedList.cpp
+C:\Dev\VisualStudio\C\Struct\LinkedList\LinkedList.cpp(29,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\LinkedList\LinkedList.cpp(29,16): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\LinkedList\LinkedList.cpp(29,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'mystruct *'
+C:\Dev\VisualStudio\C\Struct\LinkedList\LinkedList.cpp(29,16): warning C4313: 'printf': '%d' in format string conflicts with argument 3 of type 'mystruct *'
+  LinkedList.vcxproj -> C:\Dev\VisualStudio\C\Struct\LinkedList\x64\Debug\LinkedList.exe

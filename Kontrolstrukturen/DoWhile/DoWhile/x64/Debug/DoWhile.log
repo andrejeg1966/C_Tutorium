@@ -1,0 +1,15 @@
+﻿  RateZahl.cpp
+C:\Dev\VisualStudio\C\Kontrolstrukturen\DoWhile\RateZahl.cpp(13,11): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Dev\VisualStudio\C\Kontrolstrukturen\DoWhile\RateZahl.cpp(45,21): warning C4477: 'scanf_s' : format string '%c' requires an argument of type 'char *', but variadic argument 1 has type 'int *'
+      C:\Dev\VisualStudio\C\Kontrolstrukturen\DoWhile\RateZahl.cpp(45,21):
+      this argument is used by a conversion specifier
+  
+C:\Dev\VisualStudio\C\Kontrolstrukturen\DoWhile\RateZahl.cpp(45,21): warning C4473: 'scanf_s' : not enough arguments passed for format string
+      C:\Dev\VisualStudio\C\Kontrolstrukturen\DoWhile\RateZahl.cpp(45,21):
+      placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+      C:\Dev\VisualStudio\C\Kontrolstrukturen\DoWhile\RateZahl.cpp(45,21):
+      the missing variadic argument 2 is required by format string '%c'
+      C:\Dev\VisualStudio\C\Kontrolstrukturen\DoWhile\RateZahl.cpp(45,21):
+      this argument is used as a buffer size
+  
+  DoWhile.vcxproj -> C:\Dev\VisualStudio\C\Kontrolstrukturen\DoWhile\x64\Debug\DoWhile.exe

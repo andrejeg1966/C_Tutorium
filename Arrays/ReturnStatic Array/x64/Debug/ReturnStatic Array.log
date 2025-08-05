@@ -1,0 +1,9 @@
+﻿  ReturnStatic Array.cpp
+C:\Dev\VisualStudio\C\Arrays\ReturnStatic Array\ReturnStatic Array.cpp(10,9): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 2 has type 'int'
+C:\Dev\VisualStudio\C\Arrays\ReturnStatic Array\ReturnStatic Array.cpp(11,9): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 2 has type 'int'
+C:\Dev\VisualStudio\C\Arrays\ReturnStatic Array\ReturnStatic Array.cpp(12,9): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 2 has type 'int'
+C:\Dev\VisualStudio\C\Arrays\ReturnStatic Array\ReturnStatic Array.cpp(8,13): warning C4101: 'i': unreferenced local variable
+C:\Dev\VisualStudio\C\Arrays\ReturnStatic Array\ReturnStatic Array.cpp(17,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Dev\VisualStudio\C\Arrays\ReturnStatic Array\ReturnStatic Array.cpp(18,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Dev\VisualStudio\C\Arrays\ReturnStatic Array\ReturnStatic Array.cpp(19,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  ReturnStatic Array.vcxproj -> C:\Dev\VisualStudio\C\Arrays\Bubble\x64\Debug\ReturnStatic Array.exe

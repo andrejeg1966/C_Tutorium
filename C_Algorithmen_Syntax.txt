@@ -1,0 +1,497 @@
+************************************
+Return static array
+************************************
+#include <stdio.h>
+#include <math.h>
+float * arrfunction(int);
+int main(){
+   int x=100, i;
+   float *arr = arrfunction(x);
+   printf("Square of %d: %f\n", x, *arr);
+   printf("cube of %d: %f\n", x, arr[1]);
+   printf("Square root of %d: %f\n", x, arr[2]);
+   return 0;
+}
+float *arrfunction(int x){
+   static float arr[3];
+   arr[0]=pow(x,2);
+   arr[1]=pow(x, 3);
+   arr[2]=pow(x, 0.5);
+   return arr;
+}
+
+
+************************************
+Pass array with call by value method
+************************************
+#include <stdio.h>
+float average(int arr[], int length);
+int main(){
+   int arr[] = {10, 34, 21, 78, 5};
+   int length = sizeof(arr)/sizeof(int);
+   float avg = average(arr, length);
+   printf("average: %f", avg);
+}
+float average(int arr[], int length){
+   int sum=0;
+   int i;
+   for (i=0; i<length; i++){
+      printf("arr[%d]: %d\n", i, arr[i]);
+      sum+=arr[i];
+   }
+   return (float)sum/length;
+}
+
+************************************
+Pass array with call by reference
+************************************
+#include <stdio.h>
+int max(int *arr, int length);
+int main(){
+   int arr[] = {10, 34, 21, 78, 5};
+   int length = sizeof(arr)/sizeof(int);
+   int maxnum = max(arr, length);
+   printf("max: %d", maxnum);
+}
+int max(int *arr, int length){
+   int max=*arr;
+   int i;
+   for (i=0; i<length; i++){   
+      printf("arr[%d]: %d\n", i, (*arr));
+      if ((*arr)>max)
+         max = (*arr);
+      arr++;
+   }
+   return max;
+}
+
+************************************
+Pointer to Pointer
+************************************
+#include <stdio.h>
+
+int main() {
+  // An integer variable
+  int a = 100;
+
+  // Pointer to integer
+  int *ptr = &a;
+
+  // Pointer to pointer (double pointer)
+  int **dptr = &ptr;
+
+  printf("Value of 'a' is : %d\n", a);
+  printf("Value of 'a' using pointer (ptr) is : %d\n", *ptr);
+  printf("Value of 'a' using double pointer (dptr) is : %d\n", **dptr);
+
+  return 0;
+}
+
+************************************
+NULL Pointer in C
+A NULL pointer in C is a pointer that doesn't point to any of the memory locations. 
+The NULL constant is defined in the header files stdio.h, stddef.h as well as stdlib.h.
+A pointer is initialized to NULL to avoid the unpredicted behavior of a program or to prevent segmentation fault errors.
+************************************
+#include <stdio.h> 
+
+int main(){ 
+
+   int *ptr = NULL;   // null pointer
+
+   if (ptr == NULL) { 
+      printf("Pointer is a NULL pointer"); 
+   } 
+   else { 
+      printf("Value stored in the address referred by the pointer: %d", *ptr); 
+   } 
+   
+   return 0; 
+}
+
+************************************
+Array of Pointers
+************************************
+#include <stdio.h>
+
+int main() {
+  // Declaring integers
+  int var1 = 1;
+  int var2 = 2;
+  int var3 = 3;
+
+  // Declaring an array of pointers to integers
+  int *ptr[3];
+
+  // Initializing each element of
+  // array of pointers with the addresses of
+  // integer variables
+  ptr[0] = &var1;
+  ptr[1] = &var2;
+  ptr[2] = &var3;
+
+  // Accessing values
+  for (int i = 0; i < 3; i++) {
+    printf("Value at ptr[%d] = %d\n", i, *ptr[i]);
+  }
+
+  return 0;
+}
+
+************************************
+#include <stdio.h>
+ 
+const int MAX = 3;
+ 
+int main(){
+
+   int var[] = {10, 100, 200};
+   int i, *ptr[MAX];
+ 
+   for(i = 0; i < MAX; i++){
+      ptr[i] = &var[i]; /* assign the address of integer. */
+   }
+   
+   for (i = 0; i < MAX; i++){
+      printf("Value of var[%d] = %d\n", i, *ptr[i]);
+   }
+   
+   return 0;
+}
+
+************************************
+#include <stdio.h>
+ 
+const int MAX = 4;
+ 
+int main(){
+
+   char *names[] = {
+      "Zara Ali",
+      "Hina Ali",
+      "Nuha Ali",
+      "Sara Ali"
+   };
+   
+   int i = 0;
+
+   for(i = 0; i < MAX; i++){
+      printf("Value of names[%d] = %s\n", i, names[i]);
+   }
+   
+   return 0;
+}
+
+************************************
+Passing Pointers to Functions
+************************************
+#include <stdio.h>
+
+/* function declaration */
+int add(int *, int *);
+
+int main(){
+
+   int a = 10, b = 20;
+   int c = add(&a, &b);
+   printf("Addition: %d", c);
+}
+
+int add(int *x, int *y){
+   int z = *x + *y;
+   
+   return z;
+}
+************************************
+#include <stdio.h>
+#include <math.h>
+
+int arrfunction(int, float *);
+
+int main(){
+
+   int x = 100;
+   float arr[3];
+
+   arrfunction(x, arr);
+
+   printf("Square of %d: %f\n", x, arr[0]);
+   printf("Cube of %d: %f\n", x, arr[1]);
+   printf("Square root of %d: %f\n", x, arr[2]);
+   
+   return 0;
+}
+
+int arrfunction(int x, float *arr){
+   arr[0] = pow(x,2);
+   arr[1] = pow(x, 3);
+   arr[2] = pow(x, 0.5);
+}
+
+************************************
+#include <stdio.h>
+
+int compare(char *, char *);
+
+int main(){
+
+   char str1[] = "BAT";
+   char str2[] = "BALL";
+   int ret = compare(str1, str2);
+   
+   return 0;
+}
+
+int compare (char *x, char *y){
+
+   int val;
+
+   if (strlen(x) > strlen(y)){
+      printf("Length of Str1 is greater than or equal to the length of Str2");
+   }
+   else{
+      printf("Length of Str1 is less than the length of Str2");
+   }
+}
+
+************************************
+Array of Struct
+************************************
+#include <stdio.h>
+
+struct book{
+   char title[10];
+   double price;
+   int pages;
+};
+
+int main(){
+
+   struct book b[3];
+   
+   strcpy(b[0].title, "Learn C");
+   b[0].price = 650.50;
+   b[0].pages = 325;
+   
+   strcpy(b[1].title, "C Pointers");
+   b[1].price = 175;
+   b[1].pages = 225;
+   
+   strcpy(b[2].title, "C Pearls");
+   b[2].price = 250;
+   b[2].pages = 325;
+   
+   printf("\nList of Books:\n");
+   for (int i = 0; i < 3; i++){
+      printf("Title: %s \tPrice: %7.2lf \tPages: %d\n", b[i].title, b[i].price, b[i].pages);
+   }
+   
+   return 0;
+}
+
+************************************
+Pointer to Structures
+************************************
+#include <stdio.h>
+#include <string.h>
+
+struct book{
+   char title[10];
+   double price;
+   int pages;
+};
+
+int main(){
+   
+   struct book b1 = {"Learn C", 675.50, 325};
+   struct book *strptr;
+   strptr = &b1;
+   
+   printf("Title: %s\n", strptr -> title);
+   printf("Price: %lf\n", strptr -> price);
+   printf("No of Pages: %d\n", strptr -> pages);
+
+   return 0;
+}
+
+************************************
+An Array of Pointers to Structures
+************************************
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Declaring a structure
+typedef struct {
+  char title[50];
+  float price;
+} Book;
+
+const int MAX = 3;
+int main() {
+  Book *book[MAX];
+
+  // Initialize each book (pointer)
+  for (int i = 0; i < MAX; i++) {
+    book[i] = malloc(sizeof(Book));
+    snprintf(book[i]->title, 50, "Book %d", i + 1);
+    book[i]->price = 100 + i;
+  }
+
+  // Print details of each book
+  for (int i = 0; i < MAX; i++) {
+    printf("Title: %s, Price: %.2f\n", book[i]->title, book[i]->price);
+  }
+
+  // Free allocated memory
+  for (int i = 0; i < MAX; i++) {
+    free(book[i]);
+  }
+
+  return 0;
+}
+
+
+************************************
+Passing Struct Pointer to a Function
+************************************
+#include <stdio.h>
+#include <string.h>
+
+struct rectangle{
+   float len, brd;
+   double area;
+};
+
+int area(struct rectangle *);
+
+int main(){
+
+   struct rectangle s;
+   printf("Input length and breadth of a rectangle");
+   scanf("%f %f", &s.len, &s.brd);
+   area(&s);
+
+   return 0;
+
+}
+
+int area(struct rectangle *r){
+
+   r->area = (double)(r->len*r->brd);
+   printf("Length: %f \n Breadth: %f \n Area: %lf\n", r->len, r->brd, r->area);
+   
+   return 0;
+}
+
+************************************
+Return a Struct Pointer from a Function
+************************************
+#include <stdio.h>
+#include <string.h>
+
+struct rectangle{
+   float len, brd;
+   double area;
+};
+
+struct rectangle * area(float x, float y);
+
+int main(){
+
+   struct rectangle *r;
+   float x, y;
+   x = 10.5, y = 20.5;
+   r = area(x, y);
+
+   printf("Length: %f \nBreadth: %f \nArea: %lf\n", r->len, r->brd, r->area);
+
+   return 0;
+}
+
+struct rectangle * area(float x, float y){
+   double area = (double)(x*y);
+   static struct rectangle r;
+   r.len = x; r.brd = y; r.area = area;
+   
+   return &r;
+}
+
+************************************
+Function Pointer
+************************************
+#include <stdio.h>
+
+// Defining a function
+void hello() { printf("Hello World"); }
+
+// The main code
+int main() {
+  // Declaring a function pointer
+  void (*ptr)() = &hello;
+
+  // Calling function using the
+  // function poiter
+  (*ptr)();
+
+  return 0;
+}
+
+************************************
+Function Pointer with Arguments
+************************************
+#include <stdio.h>
+
+int addition (int a, int b){
+   return a + b;
+}
+
+int main(){
+
+   int (*ptr)(int, int) = addition;
+   int x = 10, y = 20;
+   int z = (*ptr)(x, y);
+
+   printf("Addition of x: %d and y: %d = %d", x, y, z);
+   
+   return 0;
+}
+
+************************************
+Array of Function Pointers
+************************************
+#include <stdio.h>
+
+float add(int a, int b){
+   return a + b;
+}
+
+float subtract(int a, int b){
+   return a - b;
+}
+
+float multiply(int a, int b){
+   return a * b;
+}
+
+float divide(int a, int b){
+   return a / b;
+}
+
+int main(){
+
+   float (*ptr[])(int, int) = {add, subtract, multiply, divide};
+   
+   int a = 15, b = 10;
+   
+   // 1 for addition, 2 for subtraction 
+   // 3 for multiplication, 4 for division
+   int op = 3;
+   
+   if (op > 5) return 0;
+   printf("Result: %.2f", (*ptr[op-1])(a, b));
+   
+   return 0;
+}
+
+

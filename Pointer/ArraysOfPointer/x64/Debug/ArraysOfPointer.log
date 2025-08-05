@@ -1,0 +1,6 @@
+﻿  ArraysOfPointer.cpp
+C:\Dev\VisualStudio\C\Pointer\ArraysOfPointer\ArraysOfPointer.cpp(37,25): error C2440: '=': cannot convert from 'void *' to 'Book *'
+      C:\Dev\VisualStudio\C\Pointer\ArraysOfPointer\ArraysOfPointer.cpp(37,25):
+      Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  
+C:\Dev\VisualStudio\C\Pointer\ArraysOfPointer\ArraysOfPointer.cpp(39,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data

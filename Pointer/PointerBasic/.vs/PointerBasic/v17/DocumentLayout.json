@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\VisualStudio\\C\\Pointer\\PointerBasic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6FD4C1B-1102-422A-BC5F-A0F096B46344}|..\\Pointers to Structures\\Pointers to Structures.vcxproj|C:\\Dev\\VisualStudio\\C\\Pointer\\Pointers to Structures\\Pointers to Structures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pointers to Structures.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\\Pointer\\Pointers to Structures\\Pointers to Structures.cpp",
+              "RelativeDocumentMoniker": "..\\Pointers to Structures\\Pointers to Structures.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\\Pointer\\Pointers to Structures\\Pointers to Structures.cpp",
+              "RelativeToolTip": "..\\Pointers to Structures\\Pointers to Structures.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-20T09:38:41.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

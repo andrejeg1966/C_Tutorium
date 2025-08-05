@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\VisualStudio\\C\\Preprocessors\\Preprocessors\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B136D3E-105A-4387-A66E-8DB156C16580}|Preprocessors.vcxproj|C:\\Dev\\VisualStudio\\C\\Preprocessors\\Preprocessors\\Preprocessors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9B136D3E-105A-4387-A66E-8DB156C16580}|Preprocessors.vcxproj|solutionrelative:Preprocessors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Preprocessors.cpp",
+              "DocumentMoniker": "C:\\Dev\\VisualStudio\\C\\Preprocessors\\Preprocessors\\Preprocessors.cpp",
+              "RelativeDocumentMoniker": "Preprocessors.cpp",
+              "ToolTip": "C:\\Dev\\VisualStudio\\C\\Preprocessors\\Preprocessors\\Preprocessors.cpp",
+              "RelativeToolTip": "Preprocessors.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-19T15:10:33.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

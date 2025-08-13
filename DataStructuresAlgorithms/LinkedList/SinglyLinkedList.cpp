@@ -23,6 +23,7 @@ Node* createNode(int data) {
 void printList(Node* node) {
     while (node) {
         printf("%d -> ", node->data);
+        //node bekommt eine neus Speicherplatz
         node = node->next;
     }
     printf("null\n");

@@ -13,19 +13,20 @@ int main() {
 	printf("var1: %f \nAddress of var1: %p \n\n", var1, &var1);
 	printf("floatptr: %p \nAddress of floatptr: %p \n\n", floatptr, &floatptr);
 	printf("var1: %f \nValue at floatptr: %f", var1, *floatptr);
-	printf("\n********************************************");
+	printf("\n********************************************\n");
 
 	//Pointer to pointer
-	int var = 10;
-	int* intptr = &var;
-	int** ptrptr = &intptr;
+	float var = 10.23;
+	float* intptr = &var;
+	float** ptrptr = &intptr;
 
-	printf("var: %d \nAddress of var: %d \n\n", var, &var);
-	printf("inttptr: %d \nAddress of inttptr: %d \n\n", intptr, &intptr);
-	printf("var: %d \nValue at intptr: %d \n\n", var, *intptr);
-	printf("ptrptr: %d \nAddress of ptrtptr: %d \n\n", ptrptr, &ptrptr);
-	printf("intptr: %d \nValue at ptrptr: %d \n\n", intptr, *ptrptr);
-	printf("var: %d \n*intptr: %d \n**ptrptr: %d", var, *intptr, **ptrptr);
+	printf("var: %f \nAddress of var: %p \n\n", var, &var);
+	printf("inttptr: %p \nAddress of inttptr: %p \n\n", intptr, &intptr);
+	printf("var: %f \nValue at intptr: %f \n\n", var, *intptr);
+	printf("\n********************************************\n");
+	printf("ptrptr: %p \nAddress of ptrtptr: %p \n\n", ptrptr, &ptrptr);
+	printf("intptr: %p \nValue at ptrptr: %p \n\n", intptr, *ptrptr);
+	printf("var: %f \n*intptr: %d \n**ptrptr: %f", var, *intptr, **ptrptr);
 
 	printf("\n********************************************");
 

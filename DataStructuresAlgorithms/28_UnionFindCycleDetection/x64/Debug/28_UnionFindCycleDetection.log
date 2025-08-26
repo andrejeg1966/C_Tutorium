@@ -1,0 +1,21 @@
+﻿  main.cpp
+C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(15,14): error C2440: 'initializing': cannot convert from 'void *' to 'Graph *'
+      C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(15,14):
+      Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  
+C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(18,27): error C2440: '=': cannot convert from 'void *' to 'int **'
+      C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(18,27):
+      Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  
+C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(20,34): error C2440: '=': cannot convert from 'void *' to 'int *'
+      C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(20,34):
+      Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  
+C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(23,28): error C2440: '=': cannot convert from 'void *' to 'char *'
+      C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(23,28):
+      Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  
+C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(28,23): error C2440: '=': cannot convert from 'void *' to 'int *'
+      C:\Dev\VisualStudio\C\DataStructuresAlgorithms\28_UnionFindCycleDetection\main.cpp(28,23):
+      Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  

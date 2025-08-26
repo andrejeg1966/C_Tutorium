@@ -5,13 +5,13 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedList", "LinkedList\LinkedList.vcxproj", "{23DC98B2-029E-48ED-8042-2F6B61609B42}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SinglyLinkedList", "SinglyLinkedList\SinglyLinkedList.vcxproj", "{2FF08C90-13C0-48AD-875C-A4B0E0F6242C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_SinglyLinkedList", "SinglyLinkedList\SinglyLinkedList.vcxproj", "{2FF08C90-13C0-48AD-875C-A4B0E0F6242C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoublyLinkedList", "DoublyLinkedList\DoublyLinkedList.vcxproj", "{E7AC26A7-1C72-4755-9C15-16C57EF43BC1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircularSinglyLinked", "Circular Singly Linked\Circular Singly Linked.vcxproj", "{02EF4295-7D08-4365-999F-57947CA535F7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircularDoublyLinkedList", "CircularDoublyLinkedList\CircularDoublyLinkedList.vcxproj", "{82092F6A-C91C-40C7-90E0-CF95AC1F20F5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_CircularDoublyLinkedList", "CircularDoublyLinkedList\CircularDoublyLinkedList.vcxproj", "{82092F6A-C91C-40C7-90E0-CF95AC1F20F5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LowestValueinLinked List", "LowestValueinLinked List\LowestValueinLinked List.vcxproj", "{0C65DD3D-930D-409A-9AFD-EB9489F67765}"
 EndProject
@@ -64,6 +64,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24_DepthFirstSearchTraversal", "24_DepthFirstSearchTraversal\24_DepthFirstSearchTraversal.vcxproj", "{18BCD834-65E9-4016-9633-530600E770F6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25_BreadthFirstSearchTraversal", "25_BreadthFirstSearchTraversal\25_BreadthFirstSearchTraversal.vcxproj", "{7EB28CED-C1E9-4FB0-AF8F-77FC6C0A41E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26_DFSCycleDetectionUndirectedGraphs", "27_DFSCycleDetectionUndirectedGraphs\27_DFSCycleDetectionUndirectedGraphs.vcxproj", "{45D2873F-EA16-4824-A2DC-C3C6564FC4DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27_DFSCyclcleDetectionDirectedGraphs", "27_DFSCyclcleDetectionDirectedGraphs\27_DFSCyclcleDetectionDirectedGraphs.vcxproj", "{6229D6DB-5098-46A9-9001-4F79E226EC05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +325,22 @@ Global
 		{7EB28CED-C1E9-4FB0-AF8F-77FC6C0A41E5}.Release|x64.Build.0 = Release|x64
 		{7EB28CED-C1E9-4FB0-AF8F-77FC6C0A41E5}.Release|x86.ActiveCfg = Release|Win32
 		{7EB28CED-C1E9-4FB0-AF8F-77FC6C0A41E5}.Release|x86.Build.0 = Release|Win32
+		{45D2873F-EA16-4824-A2DC-C3C6564FC4DD}.Debug|x64.ActiveCfg = Debug|x64
+		{45D2873F-EA16-4824-A2DC-C3C6564FC4DD}.Debug|x64.Build.0 = Debug|x64
+		{45D2873F-EA16-4824-A2DC-C3C6564FC4DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{45D2873F-EA16-4824-A2DC-C3C6564FC4DD}.Debug|x86.Build.0 = Debug|Win32
+		{45D2873F-EA16-4824-A2DC-C3C6564FC4DD}.Release|x64.ActiveCfg = Release|x64
+		{45D2873F-EA16-4824-A2DC-C3C6564FC4DD}.Release|x64.Build.0 = Release|x64
+		{45D2873F-EA16-4824-A2DC-C3C6564FC4DD}.Release|x86.ActiveCfg = Release|Win32
+		{45D2873F-EA16-4824-A2DC-C3C6564FC4DD}.Release|x86.Build.0 = Release|Win32
+		{6229D6DB-5098-46A9-9001-4F79E226EC05}.Debug|x64.ActiveCfg = Debug|x64
+		{6229D6DB-5098-46A9-9001-4F79E226EC05}.Debug|x64.Build.0 = Debug|x64
+		{6229D6DB-5098-46A9-9001-4F79E226EC05}.Debug|x86.ActiveCfg = Debug|Win32
+		{6229D6DB-5098-46A9-9001-4F79E226EC05}.Debug|x86.Build.0 = Debug|Win32
+		{6229D6DB-5098-46A9-9001-4F79E226EC05}.Release|x64.ActiveCfg = Release|x64
+		{6229D6DB-5098-46A9-9001-4F79E226EC05}.Release|x64.Build.0 = Release|x64
+		{6229D6DB-5098-46A9-9001-4F79E226EC05}.Release|x86.ActiveCfg = Release|Win32
+		{6229D6DB-5098-46A9-9001-4F79E226EC05}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

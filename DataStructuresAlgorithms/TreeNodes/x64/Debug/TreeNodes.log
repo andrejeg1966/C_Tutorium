@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (1_TreeNodes.vcxproj, TreeNodes.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+C:\Dev\VisualStudio\C\DataStructuresAlgorithms\TreeNodes\main.cpp(43,12): warning C4477: 'printf' : format string '%c' requires an argument of type 'int', but variadic argument 1 has type 'TreeNode *'
+C:\Dev\VisualStudio\C\DataStructuresAlgorithms\TreeNodes\main.cpp(43,12): warning C4313: 'printf': '%c' in format string conflicts with argument 1 of type 'TreeNode *'
+C:\Dev\VisualStudio\C\DataStructuresAlgorithms\TreeNodes\main.cpp(46,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'TreeNode *'
+C:\Dev\VisualStudio\C\DataStructuresAlgorithms\TreeNodes\main.cpp(46,12): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'TreeNode *'
+  TreeNodes.vcxproj -> C:\Dev\VisualStudio\C\DataStructuresAlgorithms\x64\Debug\11_TreeNodes.exe

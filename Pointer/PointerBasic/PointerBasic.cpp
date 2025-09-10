@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <errno.h>      // for return values
+using namespace std;
 
 int main() {
 
@@ -28,37 +30,36 @@ int main() {
 	printf("intptr: %p \nValue at ptrptr: %p \n\n", intptr, *ptrptr);
 	printf("var: %f \n*intptr: %d \n**ptrptr: %f", var, *intptr, **ptrptr);
 
-	printf("\n********************************************");
+	printf("\n********************************************\n");
 
 	//Arrays and pointer
 	int arr[5] = { 1, 2, 3, 4, 5 };
 	int* b = arr;
 
-	printf("Address of a[0]: %d value at a[0] : %d\n", b, *b);
+	printf("Address of a[0]: %x value at a[0] : %d\n", b, *b);
 
 	b++;
-	printf("Address of a[1]: %d value at a[1] : %d\n", b, *b);
+	printf("Address of a[1]: %x value at a[1] : %d\n", b, *b);
 
 	b++;
-	printf("Address of a[2]: %d value at a[2] : %d\n", b, *b);
+	printf("Address of a[2]: %x value at a[2] : %d\n", b, *b);
 
 	b++;
-	printf("Address of a[3]: %d value at a[3] : %d\n", b, *b);
+	printf("Address of a[3]: %x value at a[3] : %d\n", b, *b);
 
 	b++;
-	printf("Address of a[4]: %d value at a[4] : %d\n", b, *b);
+	printf("Address of a[4]: %x value at a[4] : %d\n", b, *b);
 
 	printf("\n********************************************");
 	//The malloc() Function
-	char *name;
-    name = (char *) malloc(strlen("TutorialsPoint"));
-	
-   //strcpy(name, "TutorialsPoint");
+	char name[20];
+    //name = (char *) malloc(strlen("TutorialsPoint"));
+	strcpy_s(name, _countof(name), "TutorialsPoint");
    
    if(name == NULL) {
       fprintf(stderr, "Error - unable to allocate required memory\n");
    } else {
-      printf("Name = %s\n", name );
+      printf("\nName = %s\n", name );
    }
 
 

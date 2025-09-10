@@ -25,19 +25,22 @@ int main() {
 	printf("Price: %lf\n", strptr->price);
 	printf("No of Pages: %d\n", strptr->pages);
 	
-	struct person* personPtr;
-	struct person person1 = { "Nixwe", 18, 50 };
-
-	strcpy_s(person1.name, 5, "Meena");
-	person1.age = 18;
-	person1.weight = 50;
-
 	
-	person1.age = 40;
+	struct person person1 = { "Nixwe", 18, 50 };
+	struct person* personPtr;
+	personPtr = &person1;
+	printf("Displaying the Data: \n");
+	printf("Name: %s\n", personPtr->name);
+	printf("Age: %d\n", personPtr->age);
+	printf("Weight: %f", personPtr->weight);
+
+	//strcpy_s(person1.name, 5, "Meena");
+	person1.age = 20;
 	person1.weight = 60;
 
-	personPtr = &person1;
-
+	
+	
+	
 	printf("Displaying the Data: \n");
 	printf("Name: %s\n", personPtr->name);
 	printf("Age: %d\n", personPtr->age);

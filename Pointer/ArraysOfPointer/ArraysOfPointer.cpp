@@ -15,7 +15,7 @@ typedef struct {
 int main() {
 
     int var[] = { 10, 100, 200 };
-    int i, * ptr[MAX];
+    int i, *ptr[MAX];
 
     for (i = 0; i < MAX; i++) {
         ptr[i] = &var[i]; /* assign the address of integer. */
